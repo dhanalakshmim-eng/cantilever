@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Books to Scrape</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+            background: #f5f5f5;
+            margin: 0;
+        }
+
+        header {
+            background: #b30000;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+        }
+
+        .container {
+            padding: 30px 60px;
+        }
+
+        form {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
+
+        input[type="text"] {
+            padding: 10px;
+            font-size: 16px;
+            width: 350px;
+            border: 2px solid #ccc;
+            border-radius: 8px 0 0 8px;
+            outline: none;
+        }
+
+        input[type="submit"] {
+            padding: 10px 20px;
+            font-size: 16px;
+            background: #b30000;
+            color: white;
+            border: none;
+            border-radius: 0 8px 8px 0;
+            cursor: pointer;
+        }
+
+        .book-card {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        .book-image {
+            width: 80px;
+            height: auto;
+            margin-right: 20px;
+            border-radius: 8px;
+        }
+
+        .book-details {
+            flex: 1;
+        }
+
+        .book-title {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 8px;
+            color: #333;
+        }
+
+        .book-info {
+            font-size: 15px;
+            margin-bottom: 5px;
+            color: #555;
+        }
+
+        .description {
+            font-style: italic;
+            color: #777;
+            font-size: 14px;
+        }
+
+        .pagination {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .pagination a {
+            margin: 0 5px;
+            padding: 6px 12px;
+            background-color: #eee;
+            border-radius: 5px;
+            text-decoration: none;
+            color: black;
+        }
+
+        .pagination a.active {
+            background-color: #b30000;
+            color: white;
+        }
+
+        .no-results {
+            text-align: center;
+            font-size: 18px;
+            color: #a00;
+            font-weight: bold;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>📚 Books to Scrape</header>
+
+<div class="container">
+
+    <form action="/search">
+        <input type="text" name="query" placeholder="Search for a book title..." value="{{ query or '' }}">
+        <input type="submit" value="Search">
+    </form>
+
+    {% if found %}
+        {% for book in books %}
+        <div class="book-card">
+            {% if book.Image_URL %}
+                <img class="book-image" src="{{ book.Image_URL }}" alt="Cover">
+            {% endif %}
+            <div class="book-details">
+                <div class="book-title">📖 {{ book.Title }}</div>
+                <div class="book-info">💷 Price: £{{ book.Price }}</div>
+                <div class="book-info">⭐ Rating: {{ book.Rating }}</div>
+                <div class="description">
+                    {{ book.Description[:150] ~ '...' if book.Description is string else 'No description available' }}
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    {% else %}
+        <div class="no-results">
+            ❗ No results found for "<span style="color:black">{{ query }}</span>".
+        </div>
+    {% endif %}
+
+    {% if pages > 1 %}
+    <div class="pagination">
+        {% for p in range(1, pages+1) %}
+            {% if query %}
+                <a href="/search?query={{ query }}&page={{ p }}" class="{{ 'active' if p == page else '' }}">{{ p }}</a>
+            {% else %}
+                <a href="/?page={{ p }}" class="{{ 'active' if p == page else '' }}">{{ p }}</a>
+            {% endif %}
+        {% endfor %}
+    </div>
+    {% endif %}
+
+</div>
+
+</body>
+</html>
