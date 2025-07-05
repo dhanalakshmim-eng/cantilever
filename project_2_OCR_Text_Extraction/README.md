@@ -44,7 +44,8 @@ project_2_OCR_Text_Extraction/
 
 ### 1. Clone the Repository
 
-git clone https://github.com/dhanalakshmim/cantilever/project_2_OCR_Text_Extraction.git
+git clone https://github.com/dhanalakshmim/cantilever/tree/main/project_2_OCR_Text_Extraction
+
 cd project_2_OCR_Text_Extraction
 
 ### 2. Install Python Requirements
