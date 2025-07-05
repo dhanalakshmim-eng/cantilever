@@ -23,11 +23,17 @@ A simple Flask-based web application that extracts text from uploaded images usi
 project_2_OCR_Text_Extraction/
 │
 ├── app.py  # Flask application logic
+
 ├── ocr_engine.py  # OCR logic using pytesseract
+
 ├── static/   # Stores uploaded images
+
 │ └── uploads/  # Flask serves images from here
+
 ├── templates/
+
 │ └── index.html  # Frontend UI
+
 └── README.md  # Project documentation
 
 🔒 static/uploads/ folder is used to store uploaded images temporarily.
@@ -75,13 +81,19 @@ Then visit: http://127.0.0.1:5000 in your browser.
 
 ### 📌 Future Enhancements
 1.Download extracted text as .txt or .pdf
+
 2.Support for multiple languages (Tamil, Hindi, etc.)
+
 3.Batch processing of images
+
 4.Drag and drop upload UI
 
 🙋‍♀️ Developed By
+
 DHANA LAKSHMI M
+
 B.E. Computer Science & Engineering
+
 Jerusalem College of Engineering
 
 
