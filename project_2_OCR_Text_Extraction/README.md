@@ -21,6 +21,7 @@ A simple Flask-based web application that extracts text from uploaded images usi
 
 ## 📁 Project Structure
 project_2_OCR_Text_Extraction/
+
 │
 ├── app.py  # Flask application logic
 
@@ -88,7 +89,7 @@ Then visit: http://127.0.0.1:5000 in your browser.
 
 4.Drag and drop upload UI
 
-🙋‍♀️ Developed By
+### 🙋‍♀️ Developed By
 
 DHANA LAKSHMI M
 
