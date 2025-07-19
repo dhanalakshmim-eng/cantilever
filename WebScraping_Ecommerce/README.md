@@ -58,14 +58,13 @@ project_1_WebScraping_Flask/
 └── README.md               # Project documentation
 
 
+#🎥 Demo
 
-<img width="1920" height="1080" alt="Screenshot 2025-07-19 234949" src="https://github.com/user-attachments/assets/e22d88b1-9a18-4f4d-9fa3-7ad6ee28c317
+[Click here to watch the demo video]
+https://drive.google.com/file/d/1kxsY9_9gxRVDpgiRWcEpgcEePxSf_AZO/view?usp=sharing
 
-
-<img width="1920" height="1080" alt="Screenshot 2025-07-19 235019" src="https://github.com/user-attachments/assets/18d5e46c-274a-4329-b282-b0da8b53e7e3" />
-
-
-<img width="1920" height="1080" alt="Screenshot 2025-07-19 235053" src="https://github.com/user-attachments/assets/8fbd865b-f8f8-462b-a8c1-8b2f3b5c80b5" />
-
-
-<img width="1920" height="1080" alt="Screenshot 2025-07-19 235137" src="https://github.com/user-attachments/assets/50c7f5ac-c8d6-4562-a2c3-815476729206" />
+#Author
+Dhana Lakshmi M
+ B.E. Computer Science
+ Email: dd406652dhana@gmail.com 
+GitHub: https://github.com/dhanalakshmim-eng/cantilever.git
