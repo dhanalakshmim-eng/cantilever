@@ -35,4 +35,4 @@ This project scrapes book data from the open-source site **[BooksToScrape](https
 
 ```bash
 git clone https://github.com/your-username/cantilever.git
-cd cantilever/project_1_WebScraping_Flask
+cd cantilever/WebScraping_Ecommerce
