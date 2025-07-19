@@ -57,3 +57,6 @@ project_1_WebScraping_Flask/
 │   └── index.html          # Frontend HTML template
 └── README.md               # Project documentation
 
+<img width="1920" height="1080" alt="Screenshot 2025-07-19 235137" src="https://github.com/user-attachments/assets/f9707ee5-d1ed-4836-b122-a1f2c82ec2df" />
+
+
