@@ -77,6 +77,11 @@ Then visit: http://127.0.0.1:5000 in your browser.
 
 ![image](https://github.com/user-attachments/assets/193fa333-b0ea-4d8a-bd87-bfca2bfe1f7f)
 
+
+#DEMO VIDEO
+https://drive.google.com/file/d/1KbDEVNQXQKUMN1qgZkXyzww81Nr1Cbhp/view?usp=sharing
+
+
 ### 📝 Notes
 1.Tesseract works best with clear, readable text.
 2.You can enhance accuracy by pre-processing images (grayscale, resize, etc.).
