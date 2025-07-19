@@ -59,7 +59,7 @@ project_1_WebScraping_Flask/
 
 
 
-<img width="1920" height="1080" alt="Screenshot 2025-07-19 234949" src="https://github.com/user-attachments/assets/e22d88b1-9a18-4f4d-9fa3-7ad6ee28c317" />
+<img width="1920" height="1080" alt="Screenshot 2025-07-19 234949" src="https://github.com/user-attachments/assets/e22d88b1-9a18-4f4d-9fa3-7ad6ee28c317
 
 
 <img width="1920" height="1080" alt="Screenshot 2025-07-19 235019" src="https://github.com/user-attachments/assets/18d5e46c-274a-4329-b282-b0da8b53e7e3" />
