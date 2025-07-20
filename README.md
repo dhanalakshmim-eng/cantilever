@@ -9,6 +9,7 @@ This repository contains multiple mini-projects developed as part of my self-lea
 
 cantilever/
 ├── WebScraping_Ecommerce/
+
 │   ├── templates/
 │   │   └── index.html
 │   ├── PROJECT 1 DOCUMENT.pdf
@@ -72,11 +73,11 @@ A lightweight OCR-based application that allows users to upload an image and ext
 1. Clone this repository:
 
 git clone https://github.com/dhanalakshmim-eng/cantilever.git
+
 cd cantilever
 
 2.Navigate into any project folder and follow the setup steps in the respective README.md.
 
 🧑‍💻 Developed By
 Name: Dhana Lakshmi M
-GitHub:
-
+GitHub:https://github.com/dhanalakshmim-eng/cantilever.git
