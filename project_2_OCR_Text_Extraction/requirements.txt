@@ -1,0 +1,5 @@
+#windows
+sudo apt-get install tesseract-ocr
+
+#macOS
+brew install tesseract
