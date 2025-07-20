@@ -27,9 +27,7 @@ project_2_OCR_Text_Extraction/
 
 ├── ocr_engine.py  # OCR logic using pytesseract
 
-├── static/   # Stores uploaded images
-
-│ └── uploads/  # Flask serves images from here
+├── requirements.txt
 
 ├── templates/
 
@@ -37,7 +35,7 @@ project_2_OCR_Text_Extraction/
 
 └── README.md  # Project documentation
 
-🔒 static/uploads/ folder is used to store uploaded images temporarily.
+🔒 static/uploads/ folder is used to store uploaded images temporarily. IT will be stored in your device after extracting the image
 
 
 ## 🔧 Setup Instructions
