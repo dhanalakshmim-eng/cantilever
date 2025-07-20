@@ -9,15 +9,11 @@ This repository contains multiple mini-projects developed as part of my self-lea
 
 cantilever/
 ├── WebScraping_Ecommerce/
-
-│   ├── templates/
-
+│   
+├── templates/
 │   │   └── index.html
-
 │   ├── PROJECT 1 DOCUMENT.pdf
-
 │   ├── README.md
-
 │   ├── app.py
 │   ├── books_data.xlsx
 │   ├── requirements.txt
