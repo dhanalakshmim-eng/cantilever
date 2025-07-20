@@ -7,10 +7,10 @@ This repository contains multiple mini-projects developed as part of my self-lea
 
 ## 📁 Folder Structure
 
+
 cantilever/
 ├── WebScraping_Ecommerce/
-│   
-├── templates/
+│   ├── templates/
 │   │   └── index.html
 │   ├── PROJECT 1 DOCUMENT.pdf
 │   ├── README.md
@@ -30,6 +30,7 @@ cantilever/
 │   └── requirements.txt
 │
 └── README.md                     # General README for the Cantilever folder
+
 
 
 
