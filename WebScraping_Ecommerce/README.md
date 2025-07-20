@@ -49,19 +49,25 @@ App will run at: http://127.0.0.1:5000
 📁 Project Structure
 
 
-project_1_WebScraping_Flask/
-
-├── app.py                  # Flask app
-
-├── scraper.py              # Scraper logic using BeautifulSoup
-
-├── books_data.xlsx         # Excel output of scraped data
+WebScraping_Ecommerce/
 
 ├── templates/
 
-│   └── index.html          # Frontend HTML template
+│   └── index.html          # Frontend HTML template\
 
-└── README.md               # Project documentation
+├── README.md
+
+├── app.py                  # Flask app
+
+├── books_data.xlsx         # Excel output of scraped data
+
+├── requirements.txt
+
+├── scraper.py              # Scraper logic using BeautifulSoup
+
+├── visualize.py            # for visualization
+
+└── webscraping document.pdf               # Project documentation
 
 
 #🎥 Demo
