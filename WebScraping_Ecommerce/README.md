@@ -50,11 +50,17 @@ App will run at: http://127.0.0.1:5000
 
 
 project_1_WebScraping_Flask/
+
 ├── app.py                  # Flask app
+
 ├── scraper.py              # Scraper logic using BeautifulSoup
+
 ├── books_data.xlsx         # Excel output of scraped data
+
 ├── templates/
+
 │   └── index.html          # Frontend HTML template
+
 └── README.md               # Project documentation
 
 
