@@ -11,9 +11,13 @@ cantilever/
 ├── WebScraping_Ecommerce/
 
 │   ├── templates/
+
 │   │   └── index.html
+
 │   ├── PROJECT 1 DOCUMENT.pdf
+
 │   ├── README.md
+
 │   ├── app.py
 │   ├── books_data.xlsx
 │   ├── requirements.txt
