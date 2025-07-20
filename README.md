@@ -10,24 +10,43 @@ This repository contains multiple mini-projects developed as part of my self-lea
 
 cantilever/
 ├── WebScraping_Ecommerce/
+
 │   ├── templates/
+
 │   │   └── index.html
+
 │   ├── PROJECT 1 DOCUMENT.pdf
+
 │   ├── README.md
+
 │   ├── app.py
+
 │   ├── books_data.xlsx
+
 │   ├── requirements.txt
+
 │   ├── scraper.py
+
 │   └── visualize.py
+
 │
+
 ├── project_2_OCR_Text_Extraction/
+
 │   ├── templates/
+
 │   │   └── index.html
+
 │   ├── PROJECT 2 DOCUMENT.pdf
+
 │   ├── README.md
+
 │   ├── app.py
+
 │   ├── ocr_engine.py
+
 │   └── requirements.txt
+
 │
 └── README.md                     # General README for the Cantilever folder
 
