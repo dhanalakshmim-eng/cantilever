@@ -15,7 +15,6 @@ cantilever/
 
 │   │   └── index.html
 
-│   ├── PROJECT 1 DOCUMENT.pdf
 
 │   ├── README.md
 
@@ -28,6 +27,8 @@ cantilever/
 │   ├── scraper.py
 
 │   └── visualize.py
+
+│   ├── webscraping document.pdf
 
 │
 
@@ -101,6 +102,6 @@ cd cantilever
 
 🧑‍💻 Developed By
 
-Name: Dhana Lakshmi M
+Name: DHANA LAKSHMI M
 
 GitHub:https://github.com/dhanalakshmim-eng/cantilever.git
