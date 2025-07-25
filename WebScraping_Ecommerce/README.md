@@ -34,6 +34,7 @@ This project scrapes book data from the open-source site **[BooksToScrape](https
 ### 1. Clone the Repository
 
 https://github.com/dhanalakshmim-eng/cantilever.git
+
 cd cantilever/WebScraping_Ecommerce
 
 #2. Install Dependencies
@@ -44,6 +45,7 @@ pip install -r requirements.txt
 #3. Start the Flask App
 
 python app.py
+
 App will run at: http://127.0.0.1:5000
 
 📁 Project Structure
@@ -73,10 +75,15 @@ WebScraping_Ecommerce/
 #🎥 Demo
 
 [Click here to watch the demo video]
+
 https://drive.google.com/file/d/1kxsY9_9gxRVDpgiRWcEpgcEePxSf_AZO/view?usp=sharing
 
 #Author
+
 Dhana Lakshmi M
+
  B.E. Computer Science
+ 
  Email: dd406652dhana@gmail.com 
+ 
 GitHub: https://github.com/dhanalakshmim-eng/cantilever.git
